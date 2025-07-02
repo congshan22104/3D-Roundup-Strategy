@@ -1,0 +1,26 @@
+# 忽略日志文件夹
+logs/
+log/
+*.log
+
+# 忽略Python编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略模型文件和大中间文件
+*.pth
+*.ckpt
+*.h5
+
+# 忽略环境配置
+.env
+.venv/
+
+# VS Code工作区设置
+.vscode/
+
+# 忽略数据集
+datasets/
+data/
